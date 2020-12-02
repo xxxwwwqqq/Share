@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="360dp"
+        android:layout_height="115dp"
+        android:orientation="vertical"
+        android:background="#2600EEEE"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国近代史"
+                android:textSize="25dp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="记录"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共5张"
+                android:textSize="19dp" />
+            <Button
+                android:id="@+id/btn_ew1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:text="开始复习"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
